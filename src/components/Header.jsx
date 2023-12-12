@@ -3,7 +3,8 @@ import { Badge, Button } from '@mui/material';
 import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
 import {  cartProductData } from '../contextApi/CartContext';
-
+import curreaselogo1 from "/public/assets/curreaselogo1.png";
+import shopIcon from "/public/assets/shopIcon.png"
 const Header = () => {
     const[isActive,setIsActive]=useState("home")
       const { cartProducts, setCartProducts } = useContext(cartProductData);
@@ -14,7 +15,7 @@ const Header = () => {
         <div className="header">
          <Link to={"/home"}>
             <div>
-              <img src="/public/assets\curreaselogo1.png" alt="" />
+              <img src={curreaselogo1} alt="" />
             </div>
          </Link>
           <div className="headerLinks">
@@ -48,7 +49,7 @@ const Header = () => {
             <Link to={"/shop"}>
               <button className='shop-but' onClick={() => setIsActive("")}>
                 <span>shop</span>{" "}
-                <img src="/public/assets\shopIcon.png" alt="" />
+                <img src={shopIcon} alt="" />
               </button>
             </Link>
             <Link to={"/cart"}>

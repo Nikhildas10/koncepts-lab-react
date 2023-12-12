@@ -1,10 +1,12 @@
 import React from 'react'
 
+
+import curreaseLogo from "/public/assets/curreaselogo1.png";
 const Footer = () => {
   return (
     <div className='footerWrapper'>
       <div className="footLogo">
-        <img src="/public/assets/curreaselogo1.png" alt="" />
+        <img src={curreaseLogo} alt="" />
       </div>
       <div className="footer">
         <div>

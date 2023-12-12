@@ -7,7 +7,14 @@ import Button from "@mui/material/Button";
 import {  cartProductData } from "../contextApi/CartContext";
 import toast, { Toaster } from "react-hot-toast";
 import { CircularProgress } from "@mui/material";
-
+import grp2836 from "/public/assets/Group 2 836.png";
+import emo1 from "/public/assets/emo1.png";
+import layer4 from "/public/assets/Layer 4.png";
+import layer2 from "/public/assets/Layer 2.png";
+import layer15 from "/public/assets/Layer 15.png";
+import layer6 from "/public/assets/Layer 6.png";
+import image55 from "/public/assets/image 55.png";
+import image56 from "/public/assets/image 56.png";
 const Home = () => {
   // store fetched data
   const [products, setProducts] = useState([]);
@@ -31,7 +38,7 @@ const Home = () => {
         <div className="quote">
           <p>Unique Curry Powders</p>
           <h1>
-            Wake Up Your <img src="/public/assets\emo1.png" alt="" /> Taste Buds
+            Wake Up Your <img src={emo1} alt="" /> Taste Buds
             With Us
           </h1>
         </div>
@@ -66,7 +73,7 @@ const Home = () => {
         <div className="circleBanner-wrap">
           <img
             className="circleBanner"
-            src="/public/assets/Group 2 836.png"
+            src={grp2836}
             alt=""
           />
         </div>
@@ -86,7 +93,7 @@ const Home = () => {
       </svg>
       <img
         className="overlayImg1 overlayimage1"
-        src="/public/assets/Layer 4.png"
+        src={layer4}
         alt=""
       />
       <svg
@@ -104,7 +111,7 @@ const Home = () => {
       </svg>
       <img
         className="overlayImg2 overlayimage2"
-        src="/public/assets/Layer 2.png"
+        src={layer2}
         alt=""
       />
       {/* inside overlay */}
@@ -136,8 +143,8 @@ const Home = () => {
         </div>
       </div>
       <div className="blurredImg">
-        <img src="/public/assets/Layer 15.png" alt="" />
-        <img src="/public/assets/Layer 6.png" alt="" />
+        <img src={layer15} alt="" />
+        <img src={layer6} alt="" />
       </div>
       {/* cards */}
       <section>
@@ -278,8 +285,8 @@ const Home = () => {
               Thanksgiving, Christmas, or New Year’s eve.
             </p>
           </div>
-          <img src="/public/assets/image 55.png" alt="" />
-          <img src="/public/assets/image 56.png" alt="" />
+          <img src={image55} alt="" />
+          <img src={image56} alt="" />
         </div>
         <Toaster position="top-center" reverseOrder={false} />
       </section>

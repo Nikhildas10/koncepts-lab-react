@@ -1,12 +1,13 @@
 import React from 'react'
-
+import maskImg from "/public/assets/mask-group-zv9.png"
+import image59 from "/public/assets/image 59.png"
 const About = () => {
   return (
     <div>
       <div>
         <div className="aboutUs-hero">
           <div>
-            <img src="/public/assets/mask-group-zv9.png" alt="" />
+            <img src={maskImg} alt="" />
           </div>
           <div className="label">
             <p className="label-heading">
@@ -45,7 +46,7 @@ const About = () => {
           </div>
         </div>
         <div className="aboutUs-lower">
-          <img src="/public/assets/image 59.png" alt="" />
+          <img src={image59} alt="" />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={60}
