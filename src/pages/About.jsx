@@ -6,7 +6,7 @@ const About = () => {
       <div>
         <div className="aboutUs-hero">
           <div>
-            <img src="../src/assets/mask-group-zv9.png" alt="" />
+            <img src="/public/assets/mask-group-zv9.png" alt="" />
           </div>
           <div className="label">
             <p className="label-heading">
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         <div className="aboutUs-lower">
-          <img src="../src/assets/image 59.png" alt="" />
+          <img src="/public/assets/image 59.png" alt="" />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={60}

@@ -31,7 +31,7 @@ const Home = () => {
         <div className="quote">
           <p>Unique Curry Powders</p>
           <h1>
-            Wake Up Your <img src="../src/assets\emo1.png" alt="" /> Taste Buds
+            Wake Up Your <img src="/public/assets\emo1.png" alt="" /> Taste Buds
             With Us
           </h1>
         </div>
@@ -66,7 +66,7 @@ const Home = () => {
         <div className="circleBanner-wrap">
           <img
             className="circleBanner"
-            src="../src/assets/Group 2 836.png"
+            src="/public/assets/Group 2 836.png"
             alt=""
           />
         </div>
@@ -86,7 +86,7 @@ const Home = () => {
       </svg>
       <img
         className="overlayImg1 overlayimage1"
-        src="../src/assets/Layer 4.png"
+        src="/public/assets/Layer 4.png"
         alt=""
       />
       <svg
@@ -104,7 +104,7 @@ const Home = () => {
       </svg>
       <img
         className="overlayImg2 overlayimage2"
-        src="../src/assets/Layer 2.png"
+        src="/public/assets/Layer 2.png"
         alt=""
       />
       {/* inside overlay */}
@@ -136,8 +136,8 @@ const Home = () => {
         </div>
       </div>
       <div className="blurredImg">
-        <img src="../src/assets/Layer 15.png" alt="" />
-        <img src="../src/assets/Layer 6.png" alt="" />
+        <img src="/public/assets/Layer 15.png" alt="" />
+        <img src="/public/assets/Layer 6.png" alt="" />
       </div>
       {/* cards */}
       <section>
@@ -278,8 +278,8 @@ const Home = () => {
               Thanksgiving, Christmas, or New Year’s eve.
             </p>
           </div>
-          <img src="../src/assets/image 55.png" alt="" />
-          <img src="../src/assets/image 56.png" alt="" />
+          <img src="/public/assets/image 55.png" alt="" />
+          <img src="/public/assets/image 56.png" alt="" />
         </div>
         <Toaster position="top-center" reverseOrder={false} />
       </section>

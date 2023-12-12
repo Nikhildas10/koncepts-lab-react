@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
-import personImg from "../assets/person.png";
-import emailImg from "../assets/email.png";
-import PassImg from "../assets/password.png";
+import emailImg from "/public/assets/email.png";
+import PassImg from "/public/assets/password.png";
 import axios from "axios";
 import { userApi } from "../api/usersApi";
 import toast, { Toaster } from "react-hot-toast";
@@ -30,7 +29,7 @@ const SignupLogin = () => {
     if (matchFound) {
       toast.success("Successfully logged in!");
       setTimeout(() => {
-        navigate("/");
+        navigate("/home");
       }, 1000);
     } else {
       toast.error("Invalid email or password");

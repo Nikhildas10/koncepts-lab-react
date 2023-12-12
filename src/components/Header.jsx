@@ -12,14 +12,14 @@ const Header = () => {
     <div>
       <div className="headerContainer">
         <div className="header">
-         <Link to={"/"}>
+         <Link to={"/home"}>
             <div>
-              <img src="../src\assets\curreaselogo1.png" alt="" />
+              <img src="/public/assets\curreaselogo1.png" alt="" />
             </div>
          </Link>
           <div className="headerLinks">
             {" "}
-            <Link to={"/"}>
+            <Link to={"/home"}>
               <li
                 className={isActive === "home" && "active"}
                 onClick={() => setIsActive("home")}
@@ -48,7 +48,7 @@ const Header = () => {
             <Link to={"/shop"}>
               <button className='shop-but' onClick={() => setIsActive("")}>
                 <span>shop</span>{" "}
-                <img src="../src\assets\shopIcon.png" alt="" />
+                <img src="/public/assets\shopIcon.png" alt="" />
               </button>
             </Link>
             <Link to={"/cart"}>
@@ -56,7 +56,7 @@ const Header = () => {
                 <ShoppingCartOutlined color="black"></ShoppingCartOutlined>
               </Badge>
             </Link>
-            <Link to={"/signup"}><button className='logout'>logout</button></Link>
+            <Link to={"/"}><button className='logout'>logout</button></Link>
           </div>
         </div>
       </div>

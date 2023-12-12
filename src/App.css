@@ -935,14 +935,12 @@ background: linear-gradient(269deg, #FFF 63.71%, rgba(255, 255, 255, 0.00) 103.4
 .footerWrapper{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 2rem;
   margin-top: 8rem;
 }
-.footLogo{
-    display: flex;
-    justify-content: center;
-}
-footer img{
+.footLogo img{
     width: 248px;
 height: 105px;
 flex-shrink: 0;

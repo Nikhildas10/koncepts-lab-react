@@ -11,15 +11,15 @@ import Cart from './pages/Cart'
 
 const App = () => {
 const location=useLocation()
-    const isSignupPage = location.pathname === "/signup";
+    const isSignupPage = location.pathname === "/";
 
   return (
     <div>
       {!isSignupPage && <Header></Header>}
 
       <Routes>
-        <Route path="/signup" element={<SignupLogin></SignupLogin>}></Route>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/" element={<SignupLogin></SignupLogin>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/shop" element={<Shop></Shop>}></Route>
